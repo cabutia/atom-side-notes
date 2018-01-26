@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle side-notes",
+        "command": "side-notes:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "side-notes",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "side-notes:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

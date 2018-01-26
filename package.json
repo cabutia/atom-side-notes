@@ -1,0 +1,18 @@
+{
+  "name": "side-notes",
+  "main": "./lib/side-notes",
+  "version": "0.0.0",
+  "description": "Displays a list of -customizable- and -personal- notes at the right side of atom!",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "side-notes:toggle"
+  },
+  "repository": "https://github.com/atom/side-notes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
